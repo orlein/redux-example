@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-
+import Counter from './Counter';
 export class App extends Component {
-  static propTypes = {
-
-  }
 
   render() {
     return (
       <div>
-        YAPYAPYAP
+        <Counter />
       </div>
     )
   }
